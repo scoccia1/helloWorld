@@ -1,0 +1,27 @@
+ /* Change color and font size for each paragraph */
+p {
+    color: hotpink;
+    font-size: 2em;
+}
+p#special-one {
+    color: palegreen;
+    font-size: 4em;
+}
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+ /* Add table border */
+table, td, th {
+    border-style: solid;
+    border-width: 2px;
+    border-color: mediumpurple;
+}
+
+ /* Resize image */
+.image-size {
+    width: 267px;
+    height: 72px;
+}
+
+
