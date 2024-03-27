@@ -25,7 +25,7 @@ def base():
 @app.route('/favorite-course')
 def favorite_course():
     print(f"Subject entered: {request.args.get('subject')}")
-    printprint(f"Course number entered: {request.args.get('course_number')}")
+    print(f"Course number entered: {request.args.get('course_number')}")
     return render_template('favorite-course.html')
 
 @app.route('/contact', methods=["GET","POST"])
